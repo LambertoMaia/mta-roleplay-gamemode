@@ -1,0 +1,28 @@
+<meta>
+    <oop>true</oop>
+
+    <!-- Admin Stuff -->
+    <script src="vehicles_admin_server.lua" />
+    <script src="vehicles_admin_client.lua" type="client" />
+    <export function="exportsVehicles" type="server" />
+    <export function="removeVehicleFromList" type="server" />
+    <export function="addVehicleToList" type="server" />
+    
+    <!-- General Vehicles -->
+    <script src="vehicles_server.lua" />
+    <script src="vehicles_client.lua" type="client" />
+    <script src="engine_server.lua" />
+    <export function="repairStalledVeh" type="server" />
+    <export function="stopRandomStall" type="server" />
+    <export function="startRandomStall" type="server" />
+    <export function="randomPowerStop" type="server" />
+    <export function="randomPower" type="server" />
+
+    <!-- Exports -->
+    <script src="exports/vehicles_utils.lua" cache="false" />
+    <export function="isVehicleParked" type="server" />
+    <export function="vehicleExists" type="server" />
+    <export function="getVehicleElement" type="server" />
+
+    <min_mta_version server="1.5.2"></min_mta_version>
+</meta>

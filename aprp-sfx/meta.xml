@@ -1,0 +1,18 @@
+<meta>
+    <oop>true</oop>
+
+    <!-- Vehicles -->
+    <script src="sfx_vehicles.lua" type="client" />
+    <file src="sfx/vehicles/handbrake_on.mp3" />
+    <file src="sfx/vehicles/handbrake_off.mp3" />
+    <file src="sfx/vehicles/door_chime.mp3" />
+    <file src="sfx/vehicles/car_lock.mp3" />
+    <file src="sfx/vehicles/seatbelt_on.mp3" />
+    <file src="sfx/vehicles/seatbelt_off.mp3" />
+
+    <!-- ui -->
+    <script src="sfx_ui.lua" type="client" />
+    <file src="sfx/ui/pop.mp3" />
+    
+    <min_mta_version server="1.5.2"></min_mta_version>
+</meta>

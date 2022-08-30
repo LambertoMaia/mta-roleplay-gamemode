@@ -1,0 +1,17 @@
+<meta>
+	<!-- Exports -->
+	<script src="exports/helpers.lua" type="shared" cache="false" />
+    <export function="showTime" type="server" />
+	<export function="has_value" type="shared" />
+	<export function="trim1" type="shared" />
+	<export function="split1" type="shared" />
+	<export function="clear1" type="shared" />
+	<export function="getNearestVehicle" type="server" />
+	<export function="isElementMoving" type="shared" />
+	<export function="wontStartVehicles" type="server" />
+	<export function="addSentMessage" type="server" />
+	<export function="isMessageSent" type="server" />
+	<export function="has_value2" type="server" />
+
+	<script src="exports/placeholder.lua" type="shared" cache="false" />
+</meta>

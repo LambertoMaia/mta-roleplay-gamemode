@@ -1,0 +1,8 @@
+<meta>
+    <oop>true</oop>
+
+    <script src="death_admin_server.lua" />
+    <script src="death_server.lua" />
+
+    <min_mta_version server="1.5.2"></min_mta_version>
+</meta>

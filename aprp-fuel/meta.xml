@@ -1,0 +1,12 @@
+<meta>
+    <oop>true</oop>
+
+    <!-- Fuel System -->
+    <script src="fuel_server.lua" />
+    <script src="fuel_client.lua" type="client" />
+    <!-- Exports -->
+    <script src="exports/fuel_utils.lua" />
+    <export function="getVehicleFuelAmount" type="server" />
+
+    <min_mta_version server="1.5.2"></min_mta_version>
+</meta>

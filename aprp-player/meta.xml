@@ -1,0 +1,13 @@
+<meta>
+    <oop>true</oop>
+    <script src="player_admin_server.lua" />
+    <script src="vehicle_admin_server.lua" />
+
+    <script src="exports/player_utils.lua" />
+    <export function="getPlayerElement" type="server" />
+    <export function="saveBackPosition" type="server" />
+    <export function="removeBackPosition" type="server" />
+    <export function="teleportToBackPosition" type="server" />
+
+    <min_mta_version server="1.5.2"></min_mta_version>
+</meta>

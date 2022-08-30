@@ -1,0 +1,11 @@
+<meta>
+    <!-- Exports -->
+    <script src="exports/connection.lua" cache="false" />
+    <export function="connectDb" type="server" />
+    <export function="parseQuery" type="server" />
+    <export function="quickUpdate" type="server" />
+    <export function="quickInsert" type="server" />
+    <export function="quickDelete" type="server" />
+    <export function="quickSelect" type="server" />
+    <min_mta_version server="1.5.2"></min_mta_version>
+</meta>

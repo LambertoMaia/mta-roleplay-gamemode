@@ -1,0 +1,23 @@
+<meta>
+    <oop>true</oop>
+    <script src="house_client.lua" type="client" />
+    <script src="house_server.lua" />
+
+    <!-- Admin stuff -->
+    <script src="house_admin_server.lua" />
+    <export function="reloadHouse" type="server" />
+
+    <!-- exports -->
+    <script src="exports/house_utils.lua" cache="false" />
+    <export function="houseExists"  type="server" />
+    <export function="createHouse"  type="server" />
+    <export function="getAllHouses" type="server" />
+    <export function="deleteHouse"  type="server" />
+    <export function="updateHouse"  type="server" />
+    <export function="getHouse"     type="server" />
+    <export function="getInterior"  type="server" />
+    <export function="transferHouse" type="server" />
+    <export function="setLock"      type="server" />
+
+    <min_mta_version server="1.5.2"></min_mta_version>
+</meta>
